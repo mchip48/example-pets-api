@@ -18,5 +18,7 @@ Rails.application.routes.draw do
   # sessions routes
   post "/sessions" => "sessions#create"
   delete "/sessions" => "sessions#destroy"
-  
+
+  # pets routes
+  get "/pets" => "pets#index"
 end
